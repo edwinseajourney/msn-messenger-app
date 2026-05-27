@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4ea3e8"/>
+      <stop offset="55%" stop-color="#7ec8f5"/>
+      <stop offset="100%" stop-color="#b8e4ff"/>
+    </linearGradient>
+    <linearGradient id="hill-far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5cb85c"/>
+      <stop offset="100%" stop-color="#3d8b3d"/>
+    </linearGradient>
+    <linearGradient id="hill-near" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7dce7d"/>
+      <stop offset="100%" stop-color="#4a9e4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="600" fill="url(#sky)"/>
+  <ellipse cx="120" cy="90" rx="55" ry="55" fill="#fff" opacity="0.95"/>
+  <ellipse cx="165" cy="95" rx="45" ry="40" fill="#fff" opacity="0.9"/>
+  <ellipse cx="80" cy="100" rx="40" ry="35" fill="#fff" opacity="0.85"/>
+  <path d="M0 380 Q200 300 400 340 T800 320 L800 600 L0 600 Z" fill="url(#hill-far)"/>
+  <path d="M0 430 Q250 360 500 400 T800 380 L800 600 L0 600 Z" fill="url(#hill-near)"/>
+</svg>
